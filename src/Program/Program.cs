@@ -8,6 +8,7 @@ namespace CompAndDel
     {
         static void Main(string[] args)
         {
+            //Ejercicio 1.
             PictureProvider provider = new PictureProvider();
             IPicture picture = provider.GetPicture("beer.jpg");
 

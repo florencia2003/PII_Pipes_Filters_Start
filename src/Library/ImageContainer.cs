@@ -1,10 +1,10 @@
 namespace CompAndDel;
 using System;
-
+ //Ejercico 2
 public class ImageContainer
 {
     private PictureProvider provider;
-
+    
     public void SaveImage(IPicture picture, string path)
     {
         provider = new PictureProvider();
