@@ -1,6 +1,8 @@
-namespace CompAndDel;
 using TwitterUCU;
 using System;
+
+namespace CompAndDel;
+
 //Ejercico 3
 public class TwitterMessage
 {

@@ -1,5 +1,7 @@
-namespace CompAndDel;
 using System;
+
+namespace CompAndDel;
+
  //Ejercico 2
 public class ImageContainer
 {
