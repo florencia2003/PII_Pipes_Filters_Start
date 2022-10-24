@@ -4,6 +4,11 @@ using System;
 public class ImageContainer
 {
     private PictureProvider provider;
+
+    public string GeneratePath()
+    {
+        return DateTime.Now.ToString("yyyyMMdd_hhmmssfff") + ".jpg";
+    }
     
     public void SaveImage(IPicture picture, string path)
     {
@@ -11,10 +16,6 @@ public class ImageContainer
         provider.SavePicture(picture, path);
     }
 
-    public string GeneratePath()
-    {
-        return DateTime.Now.ToString("yyyyMMdd_hhmmssfff") + ".jpg";
-    }
 }
 
 
